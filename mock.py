@@ -13,7 +13,7 @@ firebase = pyrebase.initialize_app(config)
 db = firebase.database()
 
 db.child('documents').child('1').set({
-	'path': 'meeting/document/1/doc.doc',
-	'extension': 'doc',
-  'name': 'doc'
+  'path': 'meeting/document/1/doc.doc',
+  'extension': 'doc',
+  'name': 'Hướng dẫn'
 })
